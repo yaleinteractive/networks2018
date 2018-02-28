@@ -34,7 +34,7 @@
     // Customize a link to pass the $number variable forward to the next page
     // The ../ means a relative link, but to the folder above this one
     // (this would depend on how you have your files organized on your server)
-    echo "<p><a href='../letters.php?letter=z&number=$number'>Sleep</a></p>";
+    echo "<p><a href='../2018-01-30/letters.php?letter=z&number=$number'>Sleep</a></p>";
 
     // Do what's in the {}, $number times
     $counter = 1;

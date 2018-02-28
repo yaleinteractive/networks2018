@@ -73,7 +73,7 @@
     // We define a new temporary variable to calculate this.
     $link_size = $size + $counter;
 
-    echo "<a href='/links.php?letter=$letter&number=$number&size=$link_size'>";
+    echo "<a href='links.php?letter=$letter&number=$number&size=$link_size'>";
 
     echo $letter;
 
